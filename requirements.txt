@@ -1,3 +1,2 @@
 pyquery
-lxml
 python-pushover

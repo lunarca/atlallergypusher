@@ -33,5 +33,5 @@ def pushover_allergy_count(pushover_client, pollen_count):
 if __name__ == "__main__":
     pushover_client = get_pushover_client()
     pollen_count = get_daily_pollen()
-    if pollen_count > 100:
+    if int(pollen_count) > 100:
         pushover_allergy_count(pushover_client, pollen_count)
